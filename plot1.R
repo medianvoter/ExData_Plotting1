@@ -57,7 +57,7 @@ dev.off()
 #points(smaller$datetime, smaller$Sub_metering_2, type = "l", col = "red")
 #points(smaller$datetime, smaller$Sub_metering_3, type = "l", col = "blue")
 #legend("topright", lty = 1, col = c("black", "red", "blue"), 
-#       legend = names(smaller)[7:9])
+#       legend = names(smaller)[7:9], box.col = NA)
 #with(smaller, plot(datetime, Voltage, type = "l"))
 #with(smaller, plot(datetime, Global_reactive_power, type = "l"))
 #dev.off()
